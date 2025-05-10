@@ -11,28 +11,26 @@ interface FeedbackCardProps {
 
 export function FeedbackCard({ img, feedback, client, title }: FeedbackCardProps) {
   return (
-    <Card shadow={false} className="items-start text-left" placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
-      <CardBody placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
-        <Avatar src={img} className="mb-2" alt={client} size="xl"  placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}/>
-        <Typography variant="h6" color="blue-gray" placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+    <Card shadow={false} className="items-start text-left hover:shadow-lg transition-shadow duration-300">
+      <CardBody>
+        <Avatar src={img} className="mb-2" alt={client} size="xl" />
+        <Typography variant="h6" color="blue-gray" className="font-heading">
           {client}
         </Typography>
         <Typography
           variant="small"
           color="blue-gray"
-          className="mt-1 mb-5 block font-normal"
-          placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+          className="mt-1 mb-5 block font-body font-medium"
         >
           {title}
         </Typography>
         <Typography
           variant="paragraph"
-          className="mb-6 font-normal text-gray-500"
-          placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+          className="mb-6 font-body text-gray-600 leading-relaxed"
         >
           &quot;{feedback}&quot;
         </Typography>
-        <Rating value={5} readonly  placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}/>
+        <Rating value={5} readonly className="text-[#1a237e]" />
       </CardBody>
     </Card>
   );

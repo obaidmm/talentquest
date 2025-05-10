@@ -7,27 +7,34 @@ import {
   Typography,
 } from "@material-tailwind/react";
 import {
-  RectangleStackIcon,
   UserCircleIcon,
-  CommandLineIcon,
-  Squares2X2Icon,
-  XMarkIcon,
+  BriefcaseIcon,
+  WrenchScrewdriverIcon,
+  LightBulbIcon,
   Bars3Icon,
+  XMarkIcon,
 } from "@heroicons/react/24/solid";
 
 const NAV_MENU = [
   {
-    name: "Page",
-    icon: RectangleStackIcon,
-  },
-  {
-    name: "Account",
+    name: "About",
     icon: UserCircleIcon,
+    href: "#about",
   },
   {
-    name: "Docs",
-    icon: CommandLineIcon,
-    href: "https://www.material-tailwind.com/docs/react/installation",
+    name: "Services",
+    icon: WrenchScrewdriverIcon,
+    href: "#services",
+  },
+  {
+    name: "Solutions",
+    icon: LightBulbIcon,
+    href: "#solutions",
+  },
+  {
+    name: "Careers",
+    icon: BriefcaseIcon,
+    href: "#careers",
   },
 ];
 
@@ -45,7 +52,8 @@ function NavItem({ children, href }: NavItemProps) {
         target={href ? "_blank" : "_self"}
         variant="paragraph"
         color="gray"
-        className="flex items-center gap-2 font-medium text-gray-900" placeholder={undefined} onResize={undefined} onResizeCapture={undefined} >
+        className="flex items-center gap-2 font-medium text-gray-900"
+      >
         {children}
       </Typography>
     </li>
@@ -72,10 +80,11 @@ export function Navbar() {
         <MTNavbar
           blurred
           color="white"
-          className="z-50 mt-6 relative border-0 pr-3 py-3 pl-6" placeholder={undefined} onResize={undefined} onResizeCapture={undefined} >
+          className="z-50 mt-6 relative border-0 pr-3 py-3 pl-6"
+        >
           <div className="flex items-center justify-between">
-            <Typography color="blue-gray" className="text-lg font-bold"  placeholder={undefined} onResize={undefined} onResizeCapture={undefined} >
-              Material Tailwind
+            <Typography color="blue-gray" className="text-lg font-bold">
+              Talent Quest Consulting
             </Typography>
             <ul className="ml-10 hidden items-center gap-8 lg:flex">
               {NAV_MENU.map(({ name, icon: Icon, href }) => (
@@ -86,20 +95,18 @@ export function Navbar() {
               ))}
             </ul>
             <div className="hidden items-center gap-4 lg:flex">
-              <Button variant="text" placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} >Log in</Button>
-              <a
-                href="https://www.material-tailwind.com/blocks"
-                target="_blank"
+              <Button 
+                color="blue" 
+                className="bg-[#1a237e] hover:bg-[#283593]"
               >
-                <Button color="gray" placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>Blocks</Button>
-              </a>
+                Contact Us
+              </Button>
             </div>
             <IconButton
               variant="text"
               color="gray"
               onClick={handleOpen}
               className="ml-auto inline-block lg:hidden"
-              placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
             >
               {open ? (
                 <XMarkIcon strokeWidth={2} className="h-6 w-6" />
@@ -119,13 +126,12 @@ export function Navbar() {
                 ))}
               </ul>
               <div className="mt-6 mb-4 flex items-center gap-4">
-                <Button variant="text" placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>Log in</Button>
-                <a
-                  href="https://www.material-tailwind.com/blocks"
-                  target="_blank"
+                <Button 
+                  color="blue" 
+                  className="bg-[#1a237e] hover:bg-[#283593]"
                 >
-                  <Button color="gray" placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>blocks</Button>
-                </a>
+                  Contact Us
+                </Button>
               </div>
             </div>
           </Collapse>

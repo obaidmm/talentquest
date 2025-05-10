@@ -1,0 +1,34 @@
+1:"$Sreact.fragment"
+2:I[67127,["103","static/chunks/cebd11e7-78cb1ada839062af.js","469","static/chunks/469-c06b32a3ee2698ad.js","127","static/chunks/127-c9ceb26a48ef2b2f.js","974","static/chunks/app/page-0e9c8c436bfc0eb2.js"],"Layout"]
+3:I[87555,[],""]
+4:I[31295,[],""]
+5:I[67127,["103","static/chunks/cebd11e7-78cb1ada839062af.js","469","static/chunks/469-c06b32a3ee2698ad.js","127","static/chunks/127-c9ceb26a48ef2b2f.js","974","static/chunks/app/page-0e9c8c436bfc0eb2.js"],"FixedPlugin"]
+6:I[67127,["103","static/chunks/cebd11e7-78cb1ada839062af.js","469","static/chunks/469-c06b32a3ee2698ad.js","127","static/chunks/127-c9ceb26a48ef2b2f.js","974","static/chunks/app/page-0e9c8c436bfc0eb2.js"],"Navbar"]
+7:I[95381,["103","static/chunks/cebd11e7-78cb1ada839062af.js","469","static/chunks/469-c06b32a3ee2698ad.js","127","static/chunks/127-c9ceb26a48ef2b2f.js","974","static/chunks/app/page-0e9c8c436bfc0eb2.js"],"default"]
+8:I[44238,["103","static/chunks/cebd11e7-78cb1ada839062af.js","469","static/chunks/469-c06b32a3ee2698ad.js","127","static/chunks/127-c9ceb26a48ef2b2f.js","974","static/chunks/app/page-0e9c8c436bfc0eb2.js"],"default"]
+9:I[77103,["103","static/chunks/cebd11e7-78cb1ada839062af.js","469","static/chunks/469-c06b32a3ee2698ad.js","127","static/chunks/127-c9ceb26a48ef2b2f.js","974","static/chunks/app/page-0e9c8c436bfc0eb2.js"],"default"]
+a:I[79831,["103","static/chunks/cebd11e7-78cb1ada839062af.js","469","static/chunks/469-c06b32a3ee2698ad.js","127","static/chunks/127-c9ceb26a48ef2b2f.js","974","static/chunks/app/page-0e9c8c436bfc0eb2.js"],"default"]
+b:I[96947,["103","static/chunks/cebd11e7-78cb1ada839062af.js","469","static/chunks/469-c06b32a3ee2698ad.js","127","static/chunks/127-c9ceb26a48ef2b2f.js","974","static/chunks/app/page-0e9c8c436bfc0eb2.js"],"default"]
+c:I[70364,["103","static/chunks/cebd11e7-78cb1ada839062af.js","469","static/chunks/469-c06b32a3ee2698ad.js","127","static/chunks/127-c9ceb26a48ef2b2f.js","974","static/chunks/app/page-0e9c8c436bfc0eb2.js"],"default"]
+d:I[67127,["103","static/chunks/cebd11e7-78cb1ada839062af.js","469","static/chunks/469-c06b32a3ee2698ad.js","127","static/chunks/127-c9ceb26a48ef2b2f.js","974","static/chunks/app/page-0e9c8c436bfc0eb2.js"],"Footer"]
+e:I[59665,[],"MetadataBoundary"]
+10:I[59665,[],"OutletBoundary"]
+13:I[74911,[],"AsyncMetadataOutlet"]
+15:I[59665,[],"ViewportBoundary"]
+17:I[26614,[],""]
+:HL["/_next/static/media/155cae559bbd1a77-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/4de1fea1a954a5b6-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/6d664cce900333ee-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/7ff6869a1704182a-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/dcc209c0b1ab30af-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/26aa8c9d2afe65b2.css","style"]
+:HL["/_next/static/css/33c86aaad068996d.css","style"]
+0:{"P":null,"b":"AsS4_1Uia3PqqKi6MmjmK","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/26aa8c9d2afe65b2.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/33c86aaad068996d.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","script",null,{"defer":true,"data-site":"YOUR_DOMAIN_HERE","src":"https://api.nepcha.com/js/nepcha-analytics.js"}],["$","link",null,{"rel":"shortcut icon","href":"/favicon.png","type":"image/png"}]]}],["$","body",null,{"className":"__variable_ae1055 __variable_4a0bf1","children":["$","$L2",null,{"children":[["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L5",null,{}]]}]}]]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[[["$","$L6",null,{}],["$","$L7",null,{}],["$","$L8",null,{}],["$","$L9",null,{}],["$","$La",null,{}],["$","$Lb",null,{}],["$","$Lc",null,{}],["$","$Ld",null,{}]],["$","$Le",null,{"children":"$Lf"}],null,["$","$L10",null,{"children":["$L11","$L12",["$","$L13",null,{"promise":"$@14"}]]}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","M_6OIc_ZPC9oTYomkGS1E",{"children":[["$","$L15",null,{"children":"$L16"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],null]}],false]],"m":"$undefined","G":["$17","$undefined"],"s":false,"S":true}
+18:"$Sreact.suspense"
+19:I[74911,[],"AsyncMetadata"]
+f:["$","$18",null,{"fallback":null,"children":["$","$L19",null,{"promise":"$@1a"}]}]
+12:null
+16:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+11:null
+1a:{"metadata":[["$","title","0",{"children":"Talent Quest Consulting - IT Solutions & Services"}],["$","meta","1",{"name":"description","content":"Talent Quest Consulting provides innovative IT solutions, cybersecurity services, and digital transformation strategies to help businesses thrive in the digital age."}]],"error":null,"digest":"$undefined"}
+14:{"metadata":"$1a:metadata","error":null,"digest":"$undefined"}

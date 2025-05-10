@@ -1,18 +1,24 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Roboto } from "next/font/google";
+import { Playfair_Display, Lato } from "next/font/google";
 import { Layout, FixedPlugin } from "@/components";
 
-const roboto = Roboto({
+const playfair = Playfair_Display({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "700", "900"],
-  display: "swap",
+  weight: ["400", "500", "600", "700", "900"],
+  variable: '--font-playfair',
+});
+
+const lato = Lato({
+  weight: ['300', '400', '700', '900'],
+  subsets: ['latin'],
+  variable: '--font-lato',
 });
 
 export const metadata: Metadata = {
-  title: "NextJS Tailwind Course Landing Page",
+  title: "Talent Quest Consulting - IT Solutions & Services",
   description:
-    "Introducing Tailwind Course Landing Page, a versatile and engaging landing page template designed using Tailwind CSS and Material Tailwind.",
+    "Talent Quest Consulting provides innovative IT solutions, cybersecurity services, and digital transformation strategies to help businesses thrive in the digital age.",
 };
 
 export default function RootLayout({
@@ -30,7 +36,7 @@ export default function RootLayout({
         ></script>
         <link rel="shortcut icon" href="/favicon.png" type="image/png" />
       </head>
-      <body className={roboto.className}>
+      <body className={`${playfair.variable} ${lato.variable}`}>
         <Layout>
           {children}
           <FixedPlugin />

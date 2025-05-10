@@ -9,61 +9,38 @@ function Hero() {
       <Image
         width={1200}
         height={1200}
-        src="/image/image8.svg"
+        src="/image/hero.png"
         alt="bg-img"
         className="absolute inset-0 ml-auto w-[920px] h-[780px] rounded-bl-[100px] object-cover object-center"
       />
       <div className="container mx-auto mt-28">
         <div className="grid grid-cols-12 text-center lg:text-left">
-          <Card className="col-span-full rounded-xl border border-white bg-white/90 py-10 p-8 shadow-lg shadow-black/10 backdrop-blur-sm backdrop-saturate-200 xl:col-span-7" placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+          <Card className="col-span-full rounded-xl border border-white bg-white/90 py-10 p-8 shadow-lg shadow-black/10 backdrop-blur-sm backdrop-saturate-200 xl:col-span-7">
             <Typography
               variant="h1"
               color="blue-gray"
-              className="lg:text-5xl !leading-snug text-3xl lg:max-w-3xl"
-              placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+              className="font-heading lg:text-5xl !leading-snug text-3xl lg:max-w-3xl font-bold tracking-tight"
             >
-              Unlock the Power of the Web with Our Expert Courses
+              Elevating Your Digital Future
             </Typography>
-            <Typography variant="lead" className="mb-10 mt-6 !text-gray-900" placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
-              Are you ready to embark on an exciting journey into the world of
-              web development? Look no further! We are your trusted partner for
-              mastering the art of web development.
+            <Typography variant="lead" className="font-body mb-10 mt-6 !text-gray-900 leading-relaxed">
+              Harness the power of innovative IT solutions crafted by our passionate team of experts. 
+              We deliver tailored tech strategies that drive growth, secure assets, and transform possibilities into reality.
             </Typography>
             <div className="mb-8 flex justify-center gap-4 lg:justify-start">
-              <Button color="gray" placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>view all courses</Button>
-              <Button color="gray" variant="outlined" placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
-                see pricing
+              <Button 
+                color="blue" 
+                className="bg-[#1a237e] hover:bg-[#283593] font-body font-bold"
+              >
+                Explore Solutions
               </Button>
-            </div>
-            <div className="grid grid-cols-2 lg:grid-cols-4 items-center justify-between gap-4 lg:justify-start">
-              <Image
-                width={144}
-                height={144}
-                className="w-36 grayscale opacity-60"
-                src="/logos/logo-pinterest.svg"
-                alt="pinterest"
-              />
-              <Image
-                width={144}
-                height={144}
-                className="w-36 grayscale opacity-60"
-                src="/logos/logo-netflix.svg"
-                alt="netflix"
-              />
-              <Image
-                width={144}
-                height={144}
-                className="w-36 grayscale opacity-60"
-                src="/logos/logo-coinbase.svg"
-                alt="coinbase"
-              />
-              <Image
-                width={144}
-                height={144}
-                className="w-36 grayscale opacity-60"
-                src="/logos/logo-google.svg"
-                alt="google"
-              />
+              <Button 
+                color="blue" 
+                variant="outlined"
+                className="border-[#1a237e] text-[#1a237e] hover:bg-[#1a237e] hover:text-white font-body font-bold"
+              >
+                Schedule Consultation
+              </Button>
             </div>
           </Card>
         </div>
